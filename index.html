@@ -8,11 +8,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Bootstrap Sample</title>
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <style type="text/css">
     
-    .nav-link {
-        color:white;
-    }
+    /*-------------------------------------*/
+        .footer {
+            margin:20px ;
+        }
+      
+       .list-inline{
+            
+            list-style:none;
+            display:inline;
+            font-size:1.5rem;
+            margin-right:10px;
+            color:white;
+            
+        }
+        
+        
+    /*------------------------------*/ 
+    
+
+        .nav-link {
+            color: white;
+        }
+
         #background {
             position: fixed;
             top: 50%;
@@ -35,13 +58,17 @@
             color: #4a4a4f;
         }
 
-        .container {
+        .container-fluid {
             color: white;
             font-size: 2rem;
             font-family: 'Nothing You Could Do', cursive;
 
         }
+/*---------Body----------------------*/
 
+.lorem{
+    font-size:1.5rem;
+}
         h1 {
             font-size: 5rem;
         }
@@ -81,7 +108,7 @@
 
         </div>
     </nav>
-    <div class="container ">
+    <div class="container-fluid ">
         <div class="row ">
             <div class="col-sm-6 offset-sm-3">
                 <h1>India Spice</h1>
@@ -95,25 +122,44 @@
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-sm-6 offset-sm-5">
-                <img src="logo.png" width = "75" height="75"></img>
+        <div class="row lorem">
+            <div class="col-md-12 offset-md-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis facilis adipisci excepturi odit illum eligendi esse ipsum ex, aliquam, soluta!</p>
             </div>
         </div>
-        
-        <div class="row">
-            <div class = "col-sm-6 col-md-4">
-                <p>phone</p>
-            </div>
-            <div class = "col-sm-6 col-md-4">
-                <p>location</p>
-            </div>
-            <div class = "col-sm-6 col-md-4">
-                <p>Opening hours</p>
-            </div>
+
+
+    </div>
+
+    <div class="row footer text-center">
+        <div class="col-sm-1 col-md-1">
             
-            
-            </div>
+        </div>
+
+        <div class="col-sm-3 col-md-3">
+            <button type="button" class="btn btn-outline-warning"><i class="fas fa-phone-square"></i>005 447892</button>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <button type="button" class="btn btn-outline-warning">Location<i class="fas fa-map-marker-alt"></i></button>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+             <button type="button" class="btn btn-outline-warning"><i class="far fa-calendar-alt"></i>Opening times</button>
+        </div>
+
+
+    </div>
+    
+    <div class = "row media list-inline text-center">
+        <div class = "col-sm-12 list-inline">
+            <ul>
+                <li class= "list-inline"><i class="fab fa-facebook"></i></li>
+                <li class= "list-inline"><i class="fab fa-instagram "></i></li>
+                <li class= "list-inline"><i class="fab fa-pinterest"></i></li>
+                <li class= "list-inline"><i class="fab fa-twitter-square "></i></li>
+                <li class = "list-inline"><i class="fab fa-youtube"></i></li>
+            </ul>
+        </div>
+    </div>
 
 
 
